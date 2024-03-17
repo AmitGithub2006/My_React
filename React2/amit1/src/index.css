@@ -1,0 +1,76 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(8, 41, 30);
+}
+
+.heading {
+    color: brown;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.heading i {
+    color: rgb(76, 100, 27);
+    margin-right: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#input, #addBtn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(140, 134, 196);
+    margin-bottom: 30px;
+}
+
+#addBtn {
+    background-color: darkolivegreen;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.todo {
+    margin-bottom: 10px;
+}
+
+.todo input {
+    font-size: 30px;
+    color: rgb(244, 248, 252);
+    display: inline-block;
+    width: 350px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+
+.todo button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 5px;
+    color: rgb(235, 223, 217);
+    cursor: pointer;
+}
+
+.todo #editBtn, .todo #saveBtn {
+    background-color: teal;
+}
+
+.todo #deleteBtn {
+    background-color: tomato;
+} */
+

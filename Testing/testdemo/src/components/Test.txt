@@ -1,0 +1,99 @@
+1.Why we need to test our code?
+We need to test because we will have:
+i.Quality Code: You are sure that the code does what we expect.
+ii.Design focus on the needs: You understand the requirements, you design based on that, and you build thinking on that.
+iii.It helps developers to identify the smallest defects that can be present in the units before they go for the integration testing.
+
+Types of Testing:
+i.Manual Testing - We need to test directly in the UI.
+eg. When we buy a new phone, we manually checks every app whether it is working properly or not.
+ii.Automated Testing - We writes the code and computer will test our UI.
+                                         OR
+Automated testing is the process of using a computer program that automatically tests the features and functions of a piece of software to find errors.
+
+The advantages of using manual testing over automated testing are-
+i.Uses human intelligence to find errors.
+ii.Lets testers focus on complex features and functions.
+iii.Detects errors outside of the code
+iv.Provides accurate emulation of user experience.
+
+The disadvantages of using manual testing over automated testing are-
+i.It requires more time than automated testing.
+ii.It is susceptible to human errors.
+iii.It is time-consuming to maintain test cases.
+iv.Testers need to know the product well.
+v.It is costly to maintain manual testers.
+
+The advantages of using automated testing over manual testing are-
+i.Increased accuracy
+ii.Faster execution
+iii.Reduced costs
+iv.More trustworthy results
+v.Increased efficiency
+
+The disadvantages of using automated testing over manual testing are-
+i.Complexity
+ii.High initial costs
+iii.It needs to be rewritten for every new environment
+iv.Cannot be used on GUI elements (e.g., graphics, sound files)
+
+2.What Is Agile Methodology in Project Management?
+The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders.
+eg:App updation - we updates any app's features one by one.
+
+3.What is waterfall model?
+The Waterfall Model was the first Process Model to be introduced. It is also referred to as a linear-sequential life cycle model. It is very simple to understand and use. In a waterfall model, each phase must be completed before the next phase can begin and there is no overlapping in the phases.
+
+4.Key Difference Between Waterfall and Agile.
+i.Waterfall is a Liner Sequential Life Cycle Model whereas Agile is a continuous iteration of development and testing in the software development process.
+ii.In Agile vs Waterfall difference, the Agile methodology is known for its flexibility whereas Waterfall is a structured software development methodology.
+iii.Comparing the Waterfall methodology vs Agile which follows an incremental approach whereas the Waterfall is a sequential design process.
+iv.Agile performs testing concurrently with software development whereas in Waterfall methodology testing comes after the “Build” phase.
+v.Agile allows changes in project development requirement whereas Waterfall has no scope of changing the requirements once the project development starts.
+
+Agile methodology is better.
+
+5.Test Cases in Automated Testing:
+i.Unit Testing: Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation.
+eg:
+function getName() {
+    return `My name is Vasanth`;
+}
+let output = getName();
+let expectedOutput = "My name is Vasanth";
+
+if(output == expectedOutput) {
+    console.log("passed");
+} else {
+    throw new Error("Test case failed");
+}
+Output:passed
+
+ii.Integration Testing: Integration Testing is defined as a type of testing where software modules are integrated logically and tested as a group.
+Here, we are not going to focus on single task, we will focus on multiple tasks which are together forming a single task.
+
+As we have checked every component individually in unit testing so integration testing is used to check whether the components will work after combining or will give the error.
+
+iii.End to End Testing:End-to-end testing is a methodology that assesses the working order of a complex product in a start-to-finish process.
+Testing of entire feature from opening to closing of it.
+
+Q.What is JEST?
+JEST(Joint Entrance Screening Test) is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+
+Q.Why Jest?
+React comes with jest by default. There is no need to install it.
+
+Q.What is TDD?
+Test-driven development (TDD) is a software development process relying on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases. This is as opposed to software being developed first and test cases created later.
+
+=> test.only - it is used only when we need to test any particular test.
+
+=> test.skip - it is used to skip any particular test.
+
+Similarly, describe.only and describe.skip will work.
+
+Code coverage:
+
+Q.Suppose if we want that branch percentage should be more than 50% or uncovered lines should be below 20 then how can we achieve this?
+In package.json file, create a jest object just after browserslist and write the threshold limits there.We can give any value upto 100.
+Positive value indicates minimum limit and negative value indicates maximum limit(in percentage).

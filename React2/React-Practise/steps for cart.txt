@@ -1,0 +1,56 @@
+Anjali
+user logs in
+API to get products.
+click add to cart
+show cart
+inc dec count, price should update
+remove from cart btn
+proceed to buy, add address, 
+save for later feature
+
+
+
+
+Amit
+1.First login
+2.Add individual item..cart quantity should increase
+3.Total amount will increase in adding new item
+3.If we add the same item twice, the item should not added separately..its count should increase
+4.We can increase/decrease item quantity inside cart also..and when any item is reduce to zero,it would remove from cart
+OR
+4.We have select-->option to increase the quantity of an item, it would be 1 to 5.
+5.Remove button..total amount would reduce
+6.On logout,cart would be empty
+7.Empty cart button
+
+
+
+
+Karthik
+First login
+API to fetch the products, add to cart button
+click on add to cart, inc/dec cart items, delete item
+empty the cart
+save cart items for every user
+
+
+Final discussion
+
+login functionality - user's name and password.
+Product's page after login.
+show products (API: https://avish-test-api.herokuapp.com/watches)
+Navbar component (to be decided)
+Cart component
+    - cart items should be saved for every user
+    - inc/dec/remove item 
+    - clear cart
+    - show total amount and quantity
+    - If we add the same item twice, the item should not added separately..its count should increase
+    - save for later feature
+payment page
+    - total amount 
+    - add address
+On logout, cart should not get emptied.
+
+
+
